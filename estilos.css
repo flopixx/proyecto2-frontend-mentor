@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("img/bg-pattern-top-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 54%;
+    font-size: 15px;
+    background-color:hsl(300, 24%, 96%);
+    font-family: 'Spartan', sans-serif;
+  
+    
+ }
+.container{
+     background: hsl(0, 0%, 100%);
+    width: 70%;
+    height: 95vh;
+    margin: 0 auto;
+    margin-top: 70px;
+    position: relative;
+    padding: 30px 30px;
+    box-shadow: hsl(300, 24%, 96%);
+  
+
+}
+.estre p {
+    display: inline;
+    color: hsl(300, 43%, 22%);
+    margin-right: 100px;
+    margin-left: 6px;
+   
+}
+
+.estre{
+
+position: absolute;
+left:60%;
+top:15%;
+
+}
+ 
+.estre .box {
+      
+    background-color: hsl(300, 24%, 96%);
+    margin-top: 15px;
+    border-radius: 6px;
+    padding: 5px;
+   
+}
+ #est {
+    margin-right: 150px;
+    min-width: 30px;
+}
+#estri{
+    margin-right: 120px;
+}
+#estril{
+    margin-right: 80px;
+}
+.box p {
+    font-weight: bold;
+    
+}
+.box img{
+    margin-left: 6px;
+    
+}
+.articulos{
+
+margin-top: 140px;
+display: flex;
+
+}
+
+.articulo{
+    background-color:hsl(300, 43%, 22%);
+    width: 100%;
+ margin-right: 20px;
+ margin-top: 35px;
+    border-radius: 10px;
+     
+}
+
+.detalle{
+    padding: 30px 30px;      
+    
+}
+.detalle img{
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+.text{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px;
+ 
+}
+ p,h3{
+
+    color: white;
+    
+}
+h4{
+    color: hsl(333, 80%, 67%);
+}
+
+h1{
+    color :hsl(300, 43%, 22%);
+    line-height: 60px;
+    font-size:40px;
+    font-weight:bolder;
+}
+.cont >p{
+    color:hsl(303, 10%, 53%);
+    font-weight: bold;
+    
+}
+ .imagen{
+position: absolute;
+top: 0;
+right: 0;
+ }
